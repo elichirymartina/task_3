@@ -1,0 +1,92 @@
+.fondo {
+    background: url('../img/design1_image1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    padding-bottom: 20%;
+}
+
+h1 {
+    text-align: center;
+    top: 70px;
+    font-family: 'Comic Neue';
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.6)	;
+    font-size: 300%;
+}
+
+
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2 {
+    background-color: rgb(238, 84, 115, 0.8);
+    text-align: center;
+    font-family: 'Comic Neue';
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+    
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.links {
+    font-family: "Comic Neue";
+    background-color: crimson;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px;
+    min-width: 10%;
+    text-align: center;
+    
+}
+
+a {
+    color: white;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+
+.contenedor3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: safe;
+    background-color: rgba(255, 255, 255, 0.6) ;
+    padding: 5%;
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-direction: column;
+    font-family: "Comic Neue";
+    font-size: large;
+}
+
+.imagenes {
+    width: 45%;
+    height: 45%;
+    border-radius: 10%;
+}
+
+tr {
+    text-align: center;
+    line-height: 150%;
+    
+}
