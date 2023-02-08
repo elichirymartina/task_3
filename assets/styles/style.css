@@ -5,7 +5,6 @@
     background-position: center center;
     background-attachment: fixed;
     backdrop-filter: blur(10px);
-    padding-bottom: 20%;
 }
 
 h1 {
@@ -88,5 +87,25 @@ a {
 tr {
     text-align: center;
     line-height: 150%;
+    
+}
+
+iframe {
+    padding-bottom: 5%;
+}
+
+.contenedor5 {
+    display: flex;
+    font-family: "Comic Neue";
+    font-size: large;
+    display: block;
+
+}
+
+.mapas {
+    display: flex;
+    justify-content: stretch;
+    flex-direction:column;
+    width: 100%;
     
 }

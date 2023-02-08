@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Logo_Mighty_ducks_01.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">  
+    <title>Registration Page</title>
+</head>
+
+<body class="fondo">
+    <header>
+        <h1><span>
+        Mighty Ducks Hockey League
+        </span>
+        </h1> 
+    </header>
+
+
+
+        <nav class="contenedor2">
+            <p class="links"><a href="index.html">Home</a></p>
+            <p class="links"><a href="about.html">About MDHL</a></p>
+            <p class="links"><a href="contact.html">Contact</a></p>
+            <p class="links"><a href="game_info.html">Game Information</a></p>
+            <p class="links"><a href="rules.html">Rules & Policies</a></p>
+            <p class="links">Registration Page</p>
+        </nav>
+
+        <section class="contenedor1">
+            <img src="assets/img/Logo_Mighty_ducks_01.png" alt="logo" height="150" width="150" class="logo">
+            <h2>REGISTRATION FORM:</h2>
+        </section>     
+
+        <div class="contenedor3">
+            <form action="./show_data.html" method="get">
+
+                <fieldset class="contenedor4">
+
+                    <legend>Personal Information</legend>
+
+                    <fieldset>
+                    <label for="nombre">Player's First Name</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="John">
+
+                    <label for="apellido">Last Name</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Doe">
+                    </fieldset>
+
+                    <fieldset>
+                    <label for="direccion">Street Address</label>
+                    <input type="text" name="direccion" id="direccion" placeholder="123 Main Street">
+
+                    <label for="ciudad">City</label>
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Chicago">
+
+                    <label for="codigoPostal">ZIP Code</label>
+                    <input type="number" name="codigoPostal" id="codigoPostal" placeholder="12345" min="00501" max="99950">
+                    </fieldset>
+
+                    <fieldset>
+                    <label for="nacimiento">Birthdate</label>
+                    <input type="date" name="nacimiento" id="nacimiento">
+                     </fieldset>
+
+                    <fieldset class="contenedor5"> 
+                        <legend>Gender</legend>
+                            <label for="masc">Male</label>
+                            <input type="radio" name="genero" id="masc">
+
+                            <label for="fem">Female</label>
+                            <input type="radio" name="genero" id="fem">
+
+                            <label for="otro">Other</label>
+                            <input type="radio" name="genero" id="otro">
+                    </fieldset>
+
+                    <fieldset class="contenedor5">
+                        <legend>Grade</legend>
+                            <label for="preEscolar"> Pre-School</label>
+                            <input type="radio" name="grado" id="preEscolar">
+
+                            <label for="primero">1st</label>
+                            <input type="radio" name="grado" id="primero">
+
+                            <label for="segundo">2nd</label>
+                            <input type="radio" name="grado" id="segundo">
+
+                            <label for="tercero">3rd</label>
+                            <input type="radio" name="grado" id="tercero">
+
+                            <label for="cuarto">4th</label>
+                            <input type="radio" name="grado" id="cuarto">
+
+                            <label for="quinto">5th</label>
+                            <input type="radio" name="grado" id="quinto">
+                    </fieldset>
+
+                </fieldset>    
+
+                <fieldset class="contenedor5">
+                    <legend>Wich elementary school do you live near?</legend>
+                        <p>Closest School:</p>
+                        
+                        <label for="AJK">AJ Katsenmaier</label>
+                        <input type="checkbox" name="escuela" id="AJK">
+
+                        <label for="GB">Green Bay</label>
+                        <input type="checkbox" name="escuela" id="GB">
+
+                        <label for="HAY">Howard A Yeager</label>
+                        <input type="checkbox" name="escuela" id="HAY">
+
+                        <label for="MPH">Marjorie P Hart</label>
+                        <input type="checkbox" name="escuela" id="MPH">
+
+                        <label for="NE">North Elementary</label>
+                        <input type="checkbox" name="escuela" id="NE">
+
+                        <label for="SE">South Elementary</label>
+                        <input type="checkbox" name="escuela" id="SE">
+
+
+                </fieldset>
+
+                <fieldset class="contenedor5">
+                    <legend>What position(s) do you normally play? (check all that apply) </legend>
+                    
+                    <label for="delantero">Forward</label>
+                    <input type="checkbox" name="posicion" id="delantero">
+
+                    <label for="defensa">Defense</label>
+                    <input type="checkbox" name="posicion" id="defensa">
+
+                    <label for="mediocampo">Midfield</label>
+                    <input type="checkbox" name="posicion" id="mediocampo">
+
+                    <label for="portero">Goalkeeper</label>
+                    <input type="checkbox" name="posicion" id="portero">
+
+                </fieldset>
+
+                <fieldset class="contenedor4">
+                    <legend>Permission to play</legend>
+                    <p>|, the parent or guardian of the minor registrant, agree that the registrant and | will abide by all the
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                        associated with hockey and in consideration for the “League” accepting the registrant for its
+                        hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their employees and associated personnel and volunteers,including the facilities used for
+                        practices and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant’s participation in the programand/orbeing transported to or from MDHL sponsored
+                        activities,which transportation
+                        By signing below, | herebyagree andauthorizethe above.I|n addition, by signing below, lalso
+                        acknowledge that | have read the cancellation policy and agree to its terms. </p>
+
+                    <label for="firma">Parent/Guardian Signature</label>
+                    <input type="text" name="firma" id="firma" placeholder="Jane Doe">    
+
+                    <label for="horaFirma">Date</label>
+                    <input type="datetime-local" name="horaFirma" id="horaFirma">
+
+                </fieldset>
+                <input type="submit" value="send" style="height: 5%; width: 5%; font-size: large;" >
+            </form>
+        </div>
+
+
+
+</body>
